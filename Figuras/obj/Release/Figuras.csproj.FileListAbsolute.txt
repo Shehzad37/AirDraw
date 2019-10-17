@@ -1,0 +1,4 @@
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\bin\Release\Figuras.dll
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\bin\Release\Figuras.pdb
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\obj\Release\Figuras.dll
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\obj\Release\Figuras.pdb

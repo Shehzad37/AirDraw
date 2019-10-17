@@ -1,0 +1,32 @@
+C:\Users\HaXor Programming\Desktop\POO\3do parcial\Dibujando Figuras\Figuras\bin\Debug\Figuras.dll
+C:\Users\HaXor Programming\Desktop\POO\3do parcial\Dibujando Figuras\Figuras\bin\Debug\Figuras.pdb
+C:\Users\HaXor Programming\Desktop\POO\3do parcial\Dibujando Figuras\Figuras\obj\Debug\Figuras.dll
+C:\Users\HaXor Programming\Desktop\POO\3do parcial\Dibujando Figuras\Figuras\obj\Debug\Figuras.pdb
+C:\Users\HaXor Programming\Desktop\POO\3do parcial\Dibujando Figuras\Figuras\obj\Debug\Figuras.csprojResolveAssemblyReference.cache
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\bin\Debug\Figuras.dll
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\bin\Debug\Figuras.pdb
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\obj\Debug\Figuras.csprojResolveAssemblyReference.cache
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\obj\Debug\Figuras.dll
+C:\Users\HaXor Programming\Desktop\Dibujando Figuras\Figuras\obj\Debug\Figuras.pdb
+G:\c# Projects\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.dll
+G:\c# Projects\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.pdb
+G:\c# Projects\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.dll
+G:\c# Projects\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.pdb
+G:\c# Projects\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.csprojResolveAssemblyReference.cache
+G:\c# Projects\fyp\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.dll
+G:\c# Projects\fyp\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.pdb
+G:\c# Projects\fyp\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.dll
+G:\c# Projects\fyp\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.pdb
+G:\c# Projects\fyp\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.csprojResolveAssemblyReference.cache
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.dll
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.pdb
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.csprojResolveAssemblyReference.cache
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.dll
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.pdb
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Shehzad\Desktop\Latest FYP Without Dial\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.dll
+C:\Users\Shehzad\Desktop\Latest FYP Without Dial\Dibujando Figuras 1\Figuras\bin\Debug\Figuras.pdb
+C:\Users\Shehzad\Desktop\Latest FYP Without Dial\Dibujando Figuras 1\Figuras\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Shehzad\Desktop\Latest FYP Without Dial\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.csprojResolveAssemblyReference.cache
+C:\Users\Shehzad\Desktop\Latest FYP Without Dial\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.dll
+C:\Users\Shehzad\Desktop\Latest FYP Without Dial\Dibujando Figuras 1\Figuras\obj\Debug\Figuras.pdb

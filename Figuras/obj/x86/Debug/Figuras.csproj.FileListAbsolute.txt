@@ -1,0 +1,11 @@
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\x86\Debug\Figuras.dll
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\x86\Debug\Figuras.pdb
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\x86\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\x86\Debug\Figuras.csprojResolveAssemblyReference.cache
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\x86\Debug\Figuras.dll
+C:\Users\Shehzad\Desktop\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\x86\Debug\Figuras.pdb
+D:\fypV1\New FyP\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\x86\Debug\Figuras.dll
+D:\fypV1\New FyP\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\bin\x86\Debug\Figuras.pdb
+D:\fypV1\New FyP\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\x86\Debug\Figuras.csprojResolveAssemblyReference.cache
+D:\fypV1\New FyP\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\x86\Debug\Figuras.dll
+D:\fypV1\New FyP\Dibujando Figuras 1(2)\Dibujando Figuras 1\Figuras\obj\x86\Debug\Figuras.pdb

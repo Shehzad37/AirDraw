@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{553B626B-AD48-4386-AA2A-F647D5C86BF6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dibujando_Figuras</RootNamespace>
+    <AssemblyName>Dibujando Figuras</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coding4Fun.Kinect.WinForm">
+      <HintPath>..\packages\Coding4Fun.Kinect.WinForm.1.7.0\lib\Coding4Fun.Kinect.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.DataService.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Win.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Kinect, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Kinect.Toolkit">
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Assemblies\Microsoft.Kinect.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Kinect.Toolkit.Interaction, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Assemblies\Microsoft.Kinect.Toolkit.Interaction.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Circle.cs" />
+    <Compile Include="Daimond.cs" />
+    <Compile Include="DummyInteractionClient.cs" />
+    <Compile Include="Eraser.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Line.cs" />
+    <Compile Include="MouseEvents.cs" />
+    <Compile Include="MyPen.cs" />
+    <Compile Include="NameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameForm.Designer.cs">
+      <DependentUpon>NameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle1.cs" />
+    <Compile Include="Triangle.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameForm.resx">
+      <DependentUpon>NameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Figuras\Figuras.csproj">
+      <Project>{30FB24AA-5BE0-414E-96C0-5B8DC1ABF3F3}</Project>
+      <Name>Figuras</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editingLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formatPaniter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giving-praise---feedback-on-student-work.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\option.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paintDish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editingLine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formatPaniter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giving-praise---feedback-on-student-work1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\option1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oval1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paintDish1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pointer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colorWheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectColor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nEraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\npen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nRectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nSelect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nndiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nTriangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotateLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotateRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nThickness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nSave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paint-bucket.png" />
+    <None Include="Resources\sqrbkk.png" />
+    <None Include="Resources\tribkk.png" />
+    <None Include="Resources\lnbkk.png" />
+    <None Include="Resources\zoom_outbkk%29.png" />
+    <None Include="Resources\zoombkk.png" />
+    <None Include="Resources\rotateLbkk.png" />
+    <None Include="Resources\rotatebkk.png" />
+    <None Include="Resources\trianglebkk.png" />
+    <None Include="Resources\squarebkk.png" />
+    <None Include="Resources\linebkk.png" />
+    <None Include="Resources\selectbkk.png" />
+    <None Include="Resources\penbkk.png" />
+    <None Include="Resources\penback.png" />
+    <None Include="Resources\rotate.png" />
+    <None Include="Resources\rotate %281%29.png" />
+    <None Include="Resources\rotate-to-right.png" />
+    <None Include="Resources\rotate-left.png" />
+    <None Include="Resources\zoom-out.png" />
+    <None Include="Resources\zoom-in %281%29.png" />
+    <None Include="Resources\select.png" />
+    <None Include="Resources\Naughty-lovely-couple-sitting-in-a-park.jpg" />
+    <None Include="Resources\new-file.png" />
+    <None Include="Resources\divide-mathematical-sign.png" />
+    <None Include="Resources\square-shape-shadow.png" />
+    <None Include="Resources\diamond-symbol.png" />
+    <None Include="Resources\diagonal-line.png" />
+    <None Include="Resources\circular-shape-silhouette.png" />
+    <None Include="Resources\up-arrow.png" />
+    <None Include="Resources\trash.png" />
+    <None Include="Resources\pen.png" />
+    <None Include="Resources\eraser.png" />
+    <None Include="Resources\feathers.png" />
+    <None Include="Resources\c.png" />
+    <None Include="Resources\ersr.png" />
+    <None Include="Resources\feather.png" />
+    <None Include="Resources\eraserbkk.png" />
+    <None Include="Resources\circlebkk.png" />
+    <None Include="Resources\dimondbkk.png" />
+    <None Include="Resources\garbagebkk.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\cursor.png" />
+    <None Include="Resources\cursor %281%29.png" />
+    <Content Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
