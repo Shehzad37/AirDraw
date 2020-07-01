@@ -12,6 +12,7 @@ Gesture based interaction systems are becoming more and more popular both at wor
 * To run the application open FYPPaintApplication.csproj
 
 # Requirements
+* Kinect
 * Kinect SDK
 * opencv
 * Coding4fun toolkit
